@@ -6,7 +6,7 @@ const axios=require("axios")
 
 app.use(bodyPaser.json())
 //connect to DB
-mongoose.connect("mongodb+srv://kangchen:ck1124@studentservice.zijsy.mongodb.net/classservice?retryWrites=true&w=majority",()=>{
+mongoose.connect("mongodb+srv://kangchen:<password>@studentservice.zijsy.mongodb.net/classservice?retryWrites=true&w=majority",()=>{
     console.log("Database connected - Classes ")
 })
 
