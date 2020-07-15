@@ -11,7 +11,7 @@ require("./Student")
 const Student = mongoose.model("Student");
 
 //connect
-mongoose.connect("mongodb+srv://kangchen:ck1124@studentservice.zijsy.mongodb.net/ studentservice?retryWrites=true&w=majority",()=>{
+mongoose.connect("mongodb+srv://kangchen:<password>@studentservice.zijsy.mongodb.net/ studentservice?retryWrites=true&w=majority",()=>{
     console.log("Database is connected !!!");
 });
 
