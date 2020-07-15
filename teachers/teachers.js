@@ -6,7 +6,7 @@ const bodyParser = require("body-parser")
 app.use(bodyParser.json());
 
 //Connect to our database
-mongoose.connect("mongodb+srv://kangchen:ck1124@studentservice.zijsy.mongodb.net/teacherservice?retryWrites=true&w=majority",()=>{
+mongoose.connect("mongodb+srv://kangchen:<password>@studentservice.zijsy.mongodb.net/teacherservice?retryWrites=true&w=majority",()=>{
     console.log("Database connected - Teacher service")
 })
 
